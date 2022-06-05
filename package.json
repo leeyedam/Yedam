@@ -32,5 +32,15 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
-  }
+  },
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeyedam/project.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/leeyedam/project/issues"
+  },
+  "homepage": "https://github.com/leeyedam/project#readme"
 }
