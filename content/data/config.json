@@ -1,0 +1,72 @@
+{
+    "title": "YEDAM",
+    "path_prefix": "/",
+    "layout_style": "grid",
+    "palette": "green",
+    "header": {
+        "title": "Ampersand",
+        "logo_img": "images/logo.svg",
+        "logo_img_alt": "Ampersand Logo",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Skills",
+                "url": "/style-guide",
+                "style": "link"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact",
+                "style": "link"
+            }
+        ]
+    },
+    "footer": {
+        "content": "&copy; Yedam. All rights reserved. This Web site was created with Yedam.",
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "style": "icon",
+                "icon_class": "twitter",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/",
+                "style": "icon",
+                "icon_class": "instagram",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/",
+                "style": "icon",
+                "icon_class": "github",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "style": "icon",
+                "icon_class": "linkedin",
+                "new_window": true
+            }
+        ],
+        "has_subscribe": true,
+        "subscribe_title": "Contact",
+        "subscribe_content": "제 사이트에 관심이 있으시다면 언제든지 연락주세요. <br/>연락처: 010-3039-2264<br/>이메일:dldpeka0909@naver.com",
+        "subscribe_action": "/subscribe-success"
+    }
+}

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EliceDigitalBaeum_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EliceDigitalBaeum_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EliceDigitalBaeum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+// Font.
+$font: (
+    primary: (
+        'EliceDigitalBaeum_Bold',
+        sans-serif
+    ),
+    secondary: (
+        'MinSans-Medium',
+        serif
+    )
+);
+
+// Palette.
+$palette: (
+    primary: #536171,
+    secondary: darken(#536171, 15%),
+    meta: lighten(#536171, 25%),
+    border: lighten(#536171, 52%),
+    bg: lighten(#536171, 58%),
+    accent: #32b7ae,
+    accent-blue: #108afb,
+    accent-black: #333b45,
+    accent-red: #f8646c
+);
+
+@import 'imports/functions';
+@import 'imports/reset';
+@import 'imports/general';
+@import 'imports/icons';
+@import 'imports/structure';
+@import 'imports/header';
+@import 'imports/posts-pages';
+@import 'imports/intro';
+@import 'imports/subscribe';
+@import 'imports/footer';
+@import 'imports/palettes';
