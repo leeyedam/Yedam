@@ -1,6 +1,13 @@
 const sourcebit = require('sourcebit');
 
 const sourcebitConfig = require('./sourcebit.js');
+// next.config.js
+const debug = process.env.NODE_ENV !== 'production'
+const name = "https://github.com/leeyedam/project.git"
+
+module.exports = {
+  assetPrefix: !debug ? `/${name}/` : '',
+}
 
 sourcebit.fetch(sourcebitConfig);
 
