@@ -51,4 +51,5 @@ layout: post
 
 Html / CSS / Javascript   
 
->위 사이트 클론코딩을 통하여<br/> html/css/javascript를 실습해 볼 수 있었고, 애니메이션과 로그인 페이지 구현에서 input태그 활용 및 자바스크립트에 대한 이해를 키울 수 있었습니다.
+>
+위 사이트 클론코딩을 통하여<br/> html/css/javascript를 실습해 볼 수 있었고, 애니메이션과 로그인 페이지 구현에서 input태그 활용 및 자바스크립트에 대한 이해를 키울 수 있었습니다.
