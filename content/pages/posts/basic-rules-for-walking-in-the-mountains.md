@@ -1,7 +1,7 @@
 ---
 title: 호텔 웹사이트 제작
 excerpt: >-
-  NextJS / React / 반응형 웹사이트    
+  NextJS / React / 반응형 웹사이트   
 date: '2022-05-31'
 link: "https://hotel-pi-three.vercel.app/"
 thumb_img_path: images/1.jpg
